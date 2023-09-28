@@ -6,9 +6,6 @@ function fetchBooks() {
   .then(data => renderBooks(data));
 
 
-document.addEventListener('DOMContentLoaded', function () {
-fetchBooks();
-});
 
   
 }
